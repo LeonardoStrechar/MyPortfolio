@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/LeonardoStrechar/MyPortfolio/static/css/main.073c9b0a.css",
-    "main.js": "/LeonardoStrechar/MyPortfolio/static/js/main.82a8122c.js",
-    "static/js/787.1ed0c42c.chunk.js": "/LeonardoStrechar/MyPortfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/LeonardoStrechar/MyPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/LeonardoStrechar/MyPortfolio/static/css/main.6153a54a.css",
+    "main.js": "/LeonardoStrechar/MyPortfolio/static/js/main.20dcf92c.js",
+    "static/media/Developer.png": "/LeonardoStrechar/MyPortfolio/static/media/Developer.45771ed22c7f13f5671f.png",
     "index.html": "/LeonardoStrechar/MyPortfolio/index.html",
-    "main.073c9b0a.css.map": "/LeonardoStrechar/MyPortfolio/static/css/main.073c9b0a.css.map",
-    "main.82a8122c.js.map": "/LeonardoStrechar/MyPortfolio/static/js/main.82a8122c.js.map",
-    "787.1ed0c42c.chunk.js.map": "/LeonardoStrechar/MyPortfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.6153a54a.css.map": "/LeonardoStrechar/MyPortfolio/static/css/main.6153a54a.css.map",
+    "main.20dcf92c.js.map": "/LeonardoStrechar/MyPortfolio/static/js/main.20dcf92c.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.82a8122c.js"
+    "static/css/main.6153a54a.css",
+    "static/js/main.20dcf92c.js"
   ]
 }
