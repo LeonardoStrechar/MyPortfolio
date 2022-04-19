@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/*animation: blink 0.6s infinite alternate;*/
+
+body{
+  margin: 0;
+  background-color: rgb(29,17,40);
+  background-color: linear-gradient(90deg, rgba(29,17,40,1) 0%, rgba(52,26,75,1) 100%);
+  font-family: 'Poppins', sans-serif;
+}
+main{
+  position: relative;
+}
+
+header{
+  position: relative;
+  width: 100%;
+  display: flex;
+  color: white;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, li {
+  position: relative;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 18px;
+}
+@media (max-width: 800px) {
+  ul, li {
+    display: none;
+  }
+}
+li:hover{
+  font-weight: bolder;
+}
+
+h3{
+  text-align: center;
+  background-color: red;
+  width: 200px;
+  
+}
+
+.Title{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-size: large;
+}
+.Sessions-header{
+  text-align: end;
+  width: 100%;
+}
+
+.Img-developer{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: 20px;
+}
+.Container-home{
+  position: relative;
+  display: flex;
+  top: 50px;
+}
+.Home-img{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.home-text{
+  width: 100%;
+  position: relative;
+  text-align: start;
+  align-self: center;
+  color: white;
+}
+
+.home-text-effect{
+  color: white; 
+  font-family: "Courier";
+  font-size: 50px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 4s steps(60, end);
+}
+
+.home-text-effect:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+@keyframes type{ 
+  from { width: 0; }  
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+h1:after{
+  content: '';
+   display: inline-block;
+   background-color: white;
+   margin-left: 2px;
+   height: 40px;
+   width: 4px;
+   animation: blink 0.4s infinite alternate;
+ }
+
+.seta-para-baixo{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 130px;
+}
+.seta{
+  width: 40px;
+  height: 15px;
+  animation: blink 0.8s infinite alternate;
+}
+
+.Container-sobre-mim{
+  position: relative;
+  display: flex;
+  top: 150px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #441A4E;
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+.sobre-mim-text{
+  width: 100%;
+  color: white;
+}
