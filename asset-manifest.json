@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.e7b5c3c1.css",
-    "main.js": "/MyPortfolio/static/js/main.1c61a3b6.js",
+    "main.css": "/MyPortfolio/static/css/main.90e37a18.css",
+    "main.js": "/MyPortfolio/static/js/main.e982df97.js",
     "static/media/Developer.png": "/MyPortfolio/static/media/Developer.45771ed22c7f13f5671f.png",
+    "static/media/liga_digital.png": "/MyPortfolio/static/media/liga_digital.e187a7faa6ff6ba63fd4.png",
     "static/media/FotoDePerfil.jpg": "/MyPortfolio/static/media/FotoDePerfil.03a9df03356ae7007d28.jpg",
     "static/media/curriculo-leonardo-strechar.pdf": "/MyPortfolio/static/media/curriculo-leonardo-strechar.e0ffcf73bbc6037a4e98.pdf",
     "index.html": "/MyPortfolio/index.html",
-    "main.e7b5c3c1.css.map": "/MyPortfolio/static/css/main.e7b5c3c1.css.map",
-    "main.1c61a3b6.js.map": "/MyPortfolio/static/js/main.1c61a3b6.js.map"
+    "main.90e37a18.css.map": "/MyPortfolio/static/css/main.90e37a18.css.map",
+    "main.e982df97.js.map": "/MyPortfolio/static/js/main.e982df97.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7b5c3c1.css",
-    "static/js/main.1c61a3b6.js"
+    "static/css/main.90e37a18.css",
+    "static/js/main.e982df97.js"
   ]
 }
