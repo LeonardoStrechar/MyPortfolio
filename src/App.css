@@ -2,14 +2,54 @@
 
 /*animation: blink 0.6s infinite alternate;*/
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
 body{
   margin: 0;
+  padding: 0;
   background-color: rgb(29,17,40);
   background-color: linear-gradient(90deg, rgba(29,17,40,1) 0%, rgba(52,26,75,1) 100%);
   font-family: 'Poppins', sans-serif;
 }
+.Main{
+    padding: 10px;
+}
 main{
   position: relative;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+button{
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    animation: blink 2s infinite alternate;   
+    padding: 10px;
+    box-shadow: 0 0 .1rem rgb(248, 7, 228),
+            0 0 .1rem rgb(200, 18, 206),
+            0 0 0.5rem #bc13fe,
+            0 0 0.3rem #bc13fe,
+            0 0 1.7rem #bc13fe,
+            inset 0 0 0.5rem #bc13fe; 
 }
 
 header{
@@ -43,7 +83,6 @@ h3{
   text-align: center;
   background-color: red;
   width: 200px;
-  
 }
 
 .Title{
@@ -68,6 +107,12 @@ h3{
   display: flex;
   top: 50px;
 }
+@media (max-width: 800px) {
+  .Container-home {
+    display: grid;
+  }
+}
+
 .Home-img{
   width: 100%;
   position: relative;
@@ -82,9 +127,10 @@ h3{
 }
 
 .home-text-effect{
+    position: relative;
   color: white; 
   font-family: "Courier";
-  font-size: 50px;
+  font-size: 30px;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -110,21 +156,29 @@ h3{
 }
 
 h1:after{
-  content: '';
-   display: inline-block;
-   background-color: white;
-   margin-left: 2px;
-   height: 40px;
-   width: 4px;
-   animation: blink 0.4s infinite alternate;
+    content: '';
+    display: inline-block;
+    background-color: white;
+    margin-left: 2px;
+    height: 40px;
+    width: 4px;
+    animation: blink 0.4s infinite alternate;
  }
 
 .seta-para-baixo{
-  position: relative;
-  width: 100%;
-  text-align: center;
-  top: 130px;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
+@media (max-width: 500px) {
+    .seta-para-baixo {
+      top: 60px;
+    }
+  }@media (min-width: 800px) {
+    .seta-para-baixo {
+      top: 150px;
+    }
+  }
 .seta{
   width: 40px;
   height: 15px;
@@ -132,16 +186,46 @@ h1:after{
 }
 
 .Container-sobre-mim{
-  position: relative;
-  display: flex;
-  top: 150px;
-  border-radius: 10px;
-  border-style: none;
-  background-color: #441A4E;
-  margin: 20px 20px;
-  padding: 20px 20px;
+    position: relative;
+    top: 90px;
+    border-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    border-radius: 50em;
+    display: grid;
 }
-.sobre-mim-text{
-  width: 100%;
-  color: white;
+@media (min-width: 800px) {
+    .Container-sobre-mim {
+      display: flex;
+      align-items: center ;
+      top: 160px;
+      padding: 50px;
+    }
+  }
+.Container-sobre-mim-text{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.Container-sobre-mim-img{
+    width: 100%;
+    text-align: center;
+}
+.Img-foto-de-perfil{
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 6px;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-color: red;
+    transition: 0.3s;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.Img-foto-de-perfil:hover{
+    border-color:orange;
+    transition: 0.3s;
+    border-width: 10px;
 }
