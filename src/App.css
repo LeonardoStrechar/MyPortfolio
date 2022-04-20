@@ -6,7 +6,7 @@
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 1px grey; 
+    box-shadow: inset 0 0 1px red; 
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
@@ -32,10 +32,10 @@ main{
 }
 
 a{
-    text-decoration: none;
     font-size: 20px;
     font-weight: 900;
     color: white;
+    text-decoration: none;
 }
 button{
     background-color: transparent;
@@ -85,6 +85,25 @@ h3{
   width: 200px;
 }
 
+.redes-sociais-fixed{
+  position: fixed;
+  top: 250px;
+  text-align: center;
+  background-color: red;
+  border: none;
+  border-radius: 10px 30px 30px 10px;
+  margin-left: -10px;
+  z-index: 10;
+  display: grid;
+  padding: 8px 8px 6px 6px ;
+}
+.icon{
+  fill: white;
+}
+.icon:hover{
+  fill: aqua;
+}
+
 .Title{
   position: relative;
   text-align: center;
@@ -98,9 +117,14 @@ h3{
 
 .Img-developer{
   position: relative;
-  width: 400px;
-  height: 400px;
-  top: 20px;
+  width: 350px;
+  height: 350px;
+}
+@media (min-width: 800px) {
+  .Img-developer{
+    width: 400px;
+    height: 400px;
+  }
 }
 .Container-home{
   position: relative;
@@ -116,8 +140,15 @@ h3{
 .Home-img{
   width: 100%;
   position: relative;
-  text-align: center;
+  text-align: start;
+  top: -50px;
 }
+@media (min-width: 800px) {
+  .Home-img{
+    text-align: center;
+  }
+}
+
 .home-text{
   width: 100%;
   position: relative;
@@ -128,13 +159,13 @@ h3{
 
 .home-text-effect{
     position: relative;
-  color: white; 
-  font-family: "Courier";
-  font-size: 30px;
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: type 4s steps(60, end);
+    color: white; 
+    font-family: "Courier";
+    font-size: 30px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 4s steps(60, end);
 }
 
 .home-text-effect:nth-child(2){
@@ -174,7 +205,8 @@ h1:after{
     .seta-para-baixo {
       top: 60px;
     }
-  }@media (min-width: 800px) {
+  }
+@media (min-width: 800px) {
     .seta-para-baixo {
       top: 150px;
     }
@@ -189,10 +221,9 @@ h1:after{
     position: relative;
     top: 90px;
     border-style: solid;
-    border-width: 5px;
-    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
-    border-radius: 50em;
     display: grid;
+    background-color: black;
+    border-radius: 20px;
 }
 @media (min-width: 800px) {
     .Container-sobre-mim {
@@ -229,3 +260,70 @@ h1:after{
     transition: 0.3s;
     border-width: 10px;
 }
+.Container-Projetos{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: white;
+}
+.Container-projetos-line{
+    display: flex;
+    text-align: end;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.Project{
+    width: 150px;
+    height: 150px;
+    border: solid red;
+    padding: 5px;
+    border-width: 0 2px 0 0;
+}
+.Img-Project{
+    position: relative;
+    width: 150px;
+    height: 100px;
+}
+.Project:hover{
+    border-color:orange;
+    transition: 0.3s;
+    border-width: 0 10px 0 0;
+}
+.Project-title{
+    position: relative;
+    top: -20px;
+    font-size: 10px;
+}
+.Project-description{
+    font-size: 10px;
+    display: none;
+}
+@media (min-width: 800px) {
+    .Project-description {
+      display: flex;
+      align-items: center ;
+      position: relative;
+      top: -25px;
+    }
+  }
+@media (min-width: 800px) {
+    .Project {
+        position: relative;
+        width: 300px;
+        height: 250px;
+    }
+  }
+@media (min-width: 800px) {
+    .Img-Project {
+        position: relative;
+        width: 300px;
+        height: 150px;
+    }
+  }
+@media (min-width: 800px) {
+    .Project-title {
+        position: relative;
+        top: -20px;
+        font-size: 25px;
+    }
+  }
