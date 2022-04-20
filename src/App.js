@@ -7,10 +7,14 @@ import SetaParaBaixo from './img/seta-para-baixo.png'
 import FotoDePerfil from './img/FotoDePerfil.jpg'
 //Projects
 import LigaDigital from './img/liga_digital.png'
+import LatalLabs from './img/latal_labs.png'
+import DisparoDeEmailPHP from './img/disparo-de-email-php.png'
+import ApiHandover from './img/api-handover.jpg'
 
 function App() {
   return (
     <div className='Main'>
+
 {/* header*/}
       <header>
         <div className='Title'>
@@ -26,6 +30,7 @@ function App() {
         </div>
       </header>
 
+{/* Redes sociais lateral fixada*/}
     <div className='redes-sociais-fixed'>
       <div>
         <a href='https://www.facebook.com/leonardo.strechar.1' rel="noreferrer" target="_blank">
@@ -98,26 +103,26 @@ function App() {
             <h5 className='Project-description'>Esse sistema foi desenvolvido com objetivo de promover festas de comunidades universitarias, como venda de ingressos, compras de bebidas e alocações de locais.</h5>
           </div>
           <div className='Project'>
-          <img className='Img-Project' src={LigaDigital} alt="Developer"/>
-            <p><a className='Project-title' target="_blank" rel="noreferrer" href='http://ligadigital.app.br/main.php'>Liga Digital</a></p>
-            <h5 className='Project-description'>Esse sistema foi desenvolvido com objetivo de promover festas de comunidades universitarias, como venda de ingressos, compras de bebidas e alocações de locais.</h5>
+          <img className='Img-Project' src={LatalLabs} alt="Developer"/>
+            <p><a className='Project-title' href='/' rel="noreferrer" >Latal-Labs</a></p>
+            <h5 className='Project-description'>Sistema desenvolvido para gerenciar o laboratorio da empresa Latal e todos as suas funções </h5>
           </div>
-          
         </div>
         <div className='Container-projetos-line'>
           <div className='Project'>
-          <img className='Img-Project' src={LigaDigital} alt="Developer"/>
-            <p><a className='Project-title' target="_blank" rel="noreferrer" href='http://ligadigital.app.br/main.php'>Liga Digital</a></p>
-            <h5 className='Project-description'>Esse sistema foi desenvolvido com objetivo de promover festas de comunidades universitarias, como venda de ingressos, compras de bebidas e alocações de locais.</h5>
+          <img className='Img-Project' src={DisparoDeEmailPHP} alt="Developer"/>
+            <p><a className='Project-title' target="_blank" rel="noreferrer" href='https://github.com/LeonardoStrechar/Disparo-de-email-PHPMailer'>Disparo de Email</a></p>
+            <h5 className='Project-description'>Aplicação desenvolvida para realizar disparo de emails dentro de outras aplicações.</h5>
           </div>
           <div className='Project'>
-          <img className='Img-Project' src={LigaDigital} alt="Developer"/>
-            <p><a className='Project-title' target="_blank" rel="noreferrer" href='http://ligadigital.app.br/main.php'>Liga Digital</a></p>
-            <h5 className='Project-description'>Esse sistema foi desenvolvido com objetivo de promover festas de comunidades universitarias, como venda de ingressos, compras de bebidas e alocações de locais.</h5>
+          <img className='Img-Project' src={ApiHandover} alt="Developer"/>
+            <p><a className='Project-title' target="_blank" rel="noreferrer" href='https://github.com/LeonardoStrechar/handover-api'>Api para gerenciar sistema de CRM</a></p>
+            <h5 className='Project-description'>API desenvolvida com todos os métodos HTTP para gerenciar qualquer sistema de CRM ou afins.</h5>
           </div>
-          
         </div>
       </div>
+
+{/* for session*/}
     </div>
   );
 }
