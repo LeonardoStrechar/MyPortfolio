@@ -454,8 +454,13 @@ h1:after{
   width: 100%;
   text-align: center;
   position: relative;
-  top: 150px;
+  top: 250px;
   color: white;
+}
+@media (min-width: 800px) {
+  .voltar-home{
+    top: 150px;
+  }
 }
 .button-home{
   color: white;
