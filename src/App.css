@@ -450,3 +450,15 @@ h1:after{
     top: 200px;
   }
 }
+.voltar-home{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 150px;
+  color: white;
+}
+.button-home{
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+}

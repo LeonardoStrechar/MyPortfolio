@@ -29,15 +29,15 @@ function App() {
 
 {/* header*/}
       <header>
-        <div className='Title'>
+        <div id='home'  className='Title'>
           <h2>PORTFOLIO</h2>
         </div>
         <div className='Sessions-header'>
           <ul>
-            <li>HOME</li>
+          <li><a href="/">HOME</a></li>
             <li><a href="#sobre-mim">SOBRE MIM</a></li>
             <li><a href='#projetos'>PROJETOS</a></li>
-            <li>CONTATO</li>
+            <li><a href='#contato'>CONTATO</a></li>
           </ul>
         </div>
       </header>
@@ -141,7 +141,7 @@ function App() {
         <div className='Container-text-linguagens-dominadas'>
           <Student style={{width: '200px', height: '200px'}} />
           <p className='text-linguagens-dominadas'>Conhecimentos em linguagens</p>
-          <h3 className='captação'>Vou te mostrar oque eu sei fazer</h3>
+          <h3 className='captação'>Vou te mostrar o que eu sei fazer, então</h3>
         </div>
         <div className='Container-icons-de-linguagens'>
           <div>
@@ -158,7 +158,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='Container-contato'>
+      <div id="contato" className='Container-contato'>
         <h1>VAMOS TRABALHAR JUNTOS?</h1>
         <div className='Container-contato-flex'>
           <div className='Container-contato-mensagem'>
@@ -201,7 +201,7 @@ function App() {
           </div>
         </div>
       </div>
-
+      <a href='#home'><h4 className='voltar-home'><button className='button-home'>VOLTAR PARA O INICIO</button></h4></a>
       <footer className='Footer'>
         Desenvolvido por Leonardo Strechar
       </footer>
