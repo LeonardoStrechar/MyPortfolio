@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.fc0f1c79.css",
+    "main.css": "/MyPortfolio/static/css/main.bc73e178.css",
     "main.js": "/MyPortfolio/static/js/main.14f23ce1.js",
     "static/media/latal_labs.png": "/MyPortfolio/static/media/latal_labs.54857761a5c1683ec379.png",
     "static/media/liga_digital.png": "/MyPortfolio/static/media/liga_digital.e187a7faa6ff6ba63fd4.png",
@@ -11,11 +11,11 @@
     "static/media/disparo-de-email-php.jpg": "/MyPortfolio/static/media/disparo-de-email-php.0269106bc53a4bed45ef.jpg",
     "static/media/api-handover.jpg": "/MyPortfolio/static/media/api-handover.26288e920a2b0c83e150.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.fc0f1c79.css.map": "/MyPortfolio/static/css/main.fc0f1c79.css.map",
+    "main.bc73e178.css.map": "/MyPortfolio/static/css/main.bc73e178.css.map",
     "main.14f23ce1.js.map": "/MyPortfolio/static/js/main.14f23ce1.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc0f1c79.css",
+    "static/css/main.bc73e178.css",
     "static/js/main.14f23ce1.js"
   ]
 }
