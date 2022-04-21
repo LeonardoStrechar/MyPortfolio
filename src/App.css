@@ -82,7 +82,7 @@ li:hover{
 h3{
   text-align: center;
   background-color: red;
-  width: 200px;
+  width: 230px;
 }
 
 .redes-sociais-fixed{
@@ -93,7 +93,7 @@ h3{
   border: none;
   border-radius: 10px 30px 30px 10px;
   margin-left: -10px;
-  z-index: 10;
+  z-index: 30;
   display: grid;
   padding: 8px 8px 6px 6px ;
 }
@@ -208,7 +208,7 @@ h1:after{
   }
 @media (min-width: 800px) {
     .seta-para-baixo {
-      top: 150px;
+      top:50px;
     }
   }
 .seta{
@@ -231,6 +231,7 @@ h1:after{
       align-items: center ;
       top: 160px;
       padding: 50px;
+      height: 400px;
     }
   }
 .Container-sobre-mim-text{
@@ -256,7 +257,7 @@ h1:after{
     margin-bottom: 10%;
 }
 .Img-foto-de-perfil:hover{
-    border-color:orange;
+    border-color:white;
     transition: 0.3s;
     border-width: 10px;
 }
@@ -285,7 +286,7 @@ h1:after{
     height: 100px;
 }
 .Project:hover{
-    border-color:orange;
+    border-color:white;
     transition: 0.3s;
     border-width: 0 10px 0 0;
 }
@@ -327,3 +328,125 @@ h1:after{
         font-size: 25px;
     }
   }
+
+.Container-icons-de-linguagens{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  .Container-icons-de-linguagens {
+      position: relative;
+  }
+}
+.icons{
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: solid 3px;
+  padding: 10px;
+  opacity: 50%;
+}
+.icons:hover{
+  border: solid 3px red;
+  border-radius: 20px;
+  opacity: 100%;
+}
+@media (min-width: 800px) {
+  .icons {
+      width: 80px;
+      height: 80px;
+      margin: 10px 10px 10px 10px;
+  }
+}
+.Container-text-linguagens-dominadas{
+  top: 0px;
+  position: relative;
+  width: 100%;
+  display: grid;
+  color: white;
+  justify-content: center;
+  z-index: 20;
+}
+@media (min-width: 800px) {
+  .Container-text-linguagens-dominadas {
+      top: -80px;
+  }
+}
+.captação{
+  height: 30px;
+  width: 200px;
+}
+.text-linguagens-dominadas{
+  font-size: 20px;
+  font-weight:bold;
+}
+.Container-conhecimentos{
+  position: relative;
+  top: 250px;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Container-contato{
+  width: 100%;
+  top: 250px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  .Container-contato{
+      top: 150px;
+  }
+}
+.Container-contato-mensagem{
+  text-align: start;
+  border: 10px solid white;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  height: 150px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 800px) {
+  .Container-contato-mensagem{
+      height: 100px;
+      padding: 5px;
+  }
+}
+.Container-contato-flex{
+  display: flex;
+  padding: 10px;
+}
+@media (min-width: 800px) {
+  .Container-contato-flex{
+      padding-left: 100px;
+      padding-top: 50px;
+      padding-bottom: 100px;
+  }
+}
+.Container-contato-icon{
+  padding-left:   0px;
+  text-align: start;
+  width: 100%;
+}
+@media (min-width: 800px) {
+  .ontainer-contato-icon{
+      padding-left: 150px;
+  }
+}
+.Footer{
+  text-align: center;
+  position: relative;
+  top: 300px;
+  color: white;
+}
+@media (min-width: 800px) {
+  .Footer{
+    top: 200px;
+  }
+}
