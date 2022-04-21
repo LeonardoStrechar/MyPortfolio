@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.90e37a18.css",
-    "main.js": "/MyPortfolio/static/js/main.e56fbd16.js",
-    "static/media/Developer.png": "/MyPortfolio/static/media/Developer.45771ed22c7f13f5671f.png",
+    "main.css": "/MyPortfolio/static/css/main.5ea33c9d.css",
+    "main.js": "/MyPortfolio/static/js/main.6e6497e7.js",
     "static/media/latal_labs.png": "/MyPortfolio/static/media/latal_labs.54857761a5c1683ec379.png",
     "static/media/liga_digital.png": "/MyPortfolio/static/media/liga_digital.e187a7faa6ff6ba63fd4.png",
     "static/media/FotoDePerfil.jpg": "/MyPortfolio/static/media/FotoDePerfil.03a9df03356ae7007d28.jpg",
     "static/media/curriculo-leonardo-strechar.pdf": "/MyPortfolio/static/media/curriculo-leonardo-strechar.e0ffcf73bbc6037a4e98.pdf",
+    "static/media/Studying.svg": "/MyPortfolio/static/media/Studying.af33701ba0c5d844ebf2207e6ba79b22.svg",
+    "static/media/Developer.svg": "/MyPortfolio/static/media/Developer.4eaf0933489974370ec2cc1135e3a2f8.svg",
+    "static/media/disparo-de-email-php.jpg": "/MyPortfolio/static/media/disparo-de-email-php.0269106bc53a4bed45ef.jpg",
     "static/media/api-handover.jpg": "/MyPortfolio/static/media/api-handover.26288e920a2b0c83e150.jpg",
-    "static/media/disparo-de-email-php.png": "/MyPortfolio/static/media/disparo-de-email-php.d9a65153530a1635e574.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.90e37a18.css.map": "/MyPortfolio/static/css/main.90e37a18.css.map",
-    "main.e56fbd16.js.map": "/MyPortfolio/static/js/main.e56fbd16.js.map"
+    "main.5ea33c9d.css.map": "/MyPortfolio/static/css/main.5ea33c9d.css.map",
+    "main.6e6497e7.js.map": "/MyPortfolio/static/js/main.6e6497e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.90e37a18.css",
-    "static/js/main.e56fbd16.js"
+    "static/css/main.5ea33c9d.css",
+    "static/js/main.6e6497e7.js"
   ]
 }
