@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.d5c9ca7d.css",
-    "main.js": "/MyPortfolio/static/js/main.14352aa6.js",
+    "main.css": "/MyPortfolio/static/css/main.bd8b921c.css",
+    "main.js": "/MyPortfolio/static/js/main.2d1eb42d.js",
     "static/media/latal_labs.png": "/MyPortfolio/static/media/latal_labs.54857761a5c1683ec379.png",
     "static/media/liga_digital.png": "/MyPortfolio/static/media/liga_digital.e187a7faa6ff6ba63fd4.png",
     "static/media/FotoDePerfil.jpg": "/MyPortfolio/static/media/FotoDePerfil.03a9df03356ae7007d28.jpg",
@@ -11,11 +11,11 @@
     "static/media/disparo-de-email-php.jpg": "/MyPortfolio/static/media/disparo-de-email-php.0269106bc53a4bed45ef.jpg",
     "static/media/api-handover.jpg": "/MyPortfolio/static/media/api-handover.26288e920a2b0c83e150.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.d5c9ca7d.css.map": "/MyPortfolio/static/css/main.d5c9ca7d.css.map",
-    "main.14352aa6.js.map": "/MyPortfolio/static/js/main.14352aa6.js.map"
+    "main.bd8b921c.css.map": "/MyPortfolio/static/css/main.bd8b921c.css.map",
+    "main.2d1eb42d.js.map": "/MyPortfolio/static/js/main.2d1eb42d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5c9ca7d.css",
-    "static/js/main.14352aa6.js"
+    "static/css/main.bd8b921c.css",
+    "static/js/main.2d1eb42d.js"
   ]
 }
